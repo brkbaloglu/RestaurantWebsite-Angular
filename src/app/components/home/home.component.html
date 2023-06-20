@@ -1,0 +1,15 @@
+<section class="home">
+    <div class="container">
+        <div class="items">
+            <h3>Welcome To Our Restaurant!</h3>
+            <p style="font-size: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore corporis voluptate earum id quos omnis.</p>
+            <a routerLink="menu">See Our Menu <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </div>
+    <div class="categories">
+        <div class="box" *ngFor="let food of foodCategory">
+            <img src="{{food.foodImg}}" alt="">
+            <h3>{{food.foodCategory}}</h3>
+        </div>
+    </div>
+</section>

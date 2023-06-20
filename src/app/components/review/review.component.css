@@ -1,0 +1,35 @@
+.review form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.review form .form-comp {
+    background-color: var(-white);
+    width: 40%;
+    font-size: 20px;
+    margin: .5rem 0;
+    padding: 1rem;
+    border: none;
+    border-bottom: var(--border);
+    color: var(--primary-color);
+}
+
+::placeholder {
+    color: var(--primary-color);
+}
+
+.review form textarea {
+    width: 40%;
+    background-color: var(-white);
+    font-size: 20px;
+    color: var(--primary-color);
+    height: 400px;
+    margin: .5rem 0;
+    padding: 1rem;
+    border: var(--border);
+    resize: none;
+}
+
+.review form .submit {}

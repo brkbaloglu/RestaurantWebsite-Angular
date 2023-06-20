@@ -1,0 +1,15 @@
+<section class="menu">
+    <div class="container">
+        <div class="box" *ngFor="let food of menuItems">
+            <img src="{{food.foodImg}}" alt="">
+            <h1 class="category">{{food.foodCategory}}</h1>
+            <div class="col">
+                <h3>Name: {{food.foodName}}</h3>
+                <h3>Price: {{food.foodPrice}}</h3>
+                <h3>Descripton: {{food.foodDetails}}</h3>
+                <button class="btn">Add to Cart</button>
+
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,46 @@
+.home .container {
+    background-image: url("../../../assets/img/img12.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home .container .items {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    color: var(--white);
+    font-size: 25px;
+}
+
+.home .container .items a {
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--primary-color);
+    padding: .75rem;
+    font-size: 20px;
+    position: absolute;
+    top: 100%;
+    margin-top: 1rem;
+    border-radius: var(--border-radius);
+}
+
+.home .categories {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+
+.home .categories .box {
+    padding: 1rem 4rem;
+    border: var(--border);
+    border-radius: var(--border-radius);
+    color: var(--primary-color);
+}
+
+.home .categories .box:hover {
+    background: var(--light-color);
+}

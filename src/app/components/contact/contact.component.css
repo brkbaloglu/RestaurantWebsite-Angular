@@ -1,0 +1,20 @@
+.contact {
+    display: flex;
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact .items .heading {
+    margin-bottom: 8rem;
+}
+
+.contact .items ul li {
+    list-style-type: none;
+    font-size: 18px;
+    margin: .5rem 0;
+}
+
+.contact .items .mark {
+    color: var(--primary-color);
+}

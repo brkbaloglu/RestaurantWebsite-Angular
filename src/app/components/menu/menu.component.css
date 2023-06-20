@@ -1,0 +1,22 @@
+.menu .container .box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 1.5rem;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.menu .container .box img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.menu .container .box .category {
+    font-size: 30px;
+    color: var(--primary-color);
+}
+
+.menu .container .col h3 {
+    margin: 1rem 0;
+}
